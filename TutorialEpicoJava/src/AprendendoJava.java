@@ -2,11 +2,14 @@
 public class AprendendoJava {
 
 	public static void main(String[] args) {
-		addExclamationPoint("!");
+		String exclamacao = addExclamationPoint("!");
+		System.out.println(exclamacao);
 	}
 	
-	public static void addExclamationPoint(String s) {
-		System.out.println("Olá, mundo" + s);
+	public static String addExclamationPoint(String s) {
+		// System.out.println("Olá, mundo" + s);
+		
+		return "Olá, mundo" + s;
 	}
 
 }
